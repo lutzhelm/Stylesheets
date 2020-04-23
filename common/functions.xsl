@@ -591,7 +591,7 @@ of this software, even if advised of the possibility of such damage.
   </xsl:function>
   <xsl:key match="entry" name="KEYS" use="key"/>
   <xsl:param name="documentationLanguage">en</xsl:param>
-  <xsl:variable name="i18n" select="document('../i18n.xml',document(''))"/>
+  <xsl:variable name="i18n" select="document('../i18n.xml')"/>
   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
     <desc>[common] give language-specific version of a word or phrase<param name="word">the word(s) to translate</param>
       </desc>

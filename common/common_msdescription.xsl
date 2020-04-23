@@ -167,7 +167,7 @@ of this software, even if advised of the possibility of such damage.
     <xsl:call-template name="makeSection">
       <xsl:with-param name="level">1</xsl:with-param>
       <xsl:with-param name="heading">
-        <xsl:text>Physical description</xsl:text>
+        <xsl:sequence select="tei:i18n('physicalDescription')"/>
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>

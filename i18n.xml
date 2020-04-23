@@ -2264,4 +2264,9 @@
      <text xml:lang="de" lang3="deu">Namensraum</text>
      <text xml:lang="sl" lang3="slv">Imenski prostor</text>
   </entry>
+  <entry>
+    <key>physicalDescription</key>
+     <text xml:lang="en" lang3="eng">Physical description (i18n)</text>
+     <text xml:lang="de" lang3="deu">Beschreibung Äußeres (i18n)</text>
+  </entry>
 </i18n>
